@@ -1,0 +1,13 @@
+{
+	"private": true,
+	"name": "@turbo/typescript-config",
+	"version": "0.0.0",
+	"type": "module",
+	"author": "Dmitriy Kvant",
+	"exports": {
+		".": "./index.json"
+	},
+	"peerDependencies": {
+		"typescript": "5.4.5"
+	}
+}

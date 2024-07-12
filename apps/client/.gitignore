@@ -1,0 +1,12 @@
+# Base
+.turbo
+.next
+.env
+node_modules
+next-env.d.ts
+
+# Tests
+test-results
+playwright-report
+blob-report
+playwright/.cache

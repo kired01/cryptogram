@@ -1,0 +1,41 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"extends": "@turbo/typescript-config",
+	"display": "Next.js",
+	"compilerOptions": {
+		"plugins": [
+			{
+				"name": "next"
+			}
+		],
+		"module": "ESNext",
+		"moduleResolution": "Bundler",
+		"allowJs": true,
+		"jsx": "preserve",
+		"noEmit": true,
+		"paths": {
+			"@/*": [
+				"./src/*"
+			],
+			"public/*": [
+				"./public/*"
+			]
+		},
+		"strictNullChecks": true
+	},
+	"include": [
+		"next-env.d.ts",
+		"next.config.js",
+		"**/*.ts",
+		"**/*.tsx",
+		".next/types/**/*.ts",
+		".storybook/**/*.ts",
+		".storybook/**/*.tsx",
+		"prettier.config.cjs",
+		"postcss.config.cjs",
+		".eslintrc.cjs"
+	],
+	"exclude": [
+		"node_modules"
+	]
+}

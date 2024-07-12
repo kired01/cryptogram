@@ -1,0 +1,18 @@
+{
+	"private": true,
+	"name": "@turbo/prettier-config",
+	"version": "0.0.0",
+	"type": "module",
+	"author": "Dmitriy Kvant",
+	"main": "./cjs/index.cjs",
+	"module": "./esm/index.js",
+	"exports": {
+		".": {
+			"import": "./esm/index.js",
+			"require": "./cjs/index.cjs"
+		}
+	},
+	"peerDependencies": {
+		"prettier": "3.3.2"
+	}
+}

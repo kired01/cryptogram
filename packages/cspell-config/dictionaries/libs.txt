@@ -1,0 +1,9 @@
+trivago
+nextui
+turbopack
+svgr
+pxtorem
+tailwindcss
+nextjs
+tanstack
+opentelemetry

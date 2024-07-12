@@ -1,0 +1,13 @@
+{
+	"extends": "@turbo/typescript-config",
+	"include": [
+		"**/*.ts",
+		".eslintrc.cjs",
+		"cspell.config.cjs",
+		"prettier.config.cjs"
+	],
+	"exclude": [
+		"node_modules",
+		".yarn"
+	]
+}

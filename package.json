@@ -1,0 +1,46 @@
+{
+	"private": true,
+	"name": "@turbo/cryptogram",
+	"type": "module",
+	"author": "Dmitriy Kvant",
+	"scripts": {
+		"preinstall": "npx only-allow yarn",
+		"build": "turbo build",
+		"dev": "turbo dev",
+		"lint": "turbo lint",
+		"lint:types": "turbo lint:types",
+		"test": "turbo test",
+		"test:e2e": "turbo test:e2e",
+		"format": "prettier -w .",
+		"cspell-check": "cspell .",
+		"storybook": "turbo storybook",
+		"build-storybook": "turbo build-storybook"
+	},
+	"devDependencies": {
+		"@turbo/cspell-config": "*",
+		"@turbo/eslint-config": "*",
+		"@turbo/prettier-config": "*",
+		"@turbo/typescript-config": "*",
+		"cspell": "8.10.4",
+		"eslint": "8.57.0",
+		"prettier": "3.3.2",
+		"turbo": "2.0.6",
+		"typescript": "5.4.5"
+	},
+	"packageManager": "yarn@4.3.1",
+	"workspaces": [
+		"apps/*",
+		"packages/*"
+	],
+	"dependenciesMeta": {
+		"@nextui-org/theme@2.2.6": {
+			"unplugged": true
+		},
+		"@trivago/prettier-plugin-sort-imports@4.3.0": {
+			"unplugged": true
+		},
+		"prettier-plugin-tailwindcss@0.4.1": {
+			"unplugged": true
+		}
+	}
+}

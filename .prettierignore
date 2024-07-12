@@ -1,0 +1,13 @@
+# Base
+.yarn
+.next
+.pnp.cjs
+.pnp.loader.mjs
+yarn.lock
+next-env.d.ts
+
+# Tests
+test-results
+playwright-report
+blob-report
+playwright/.cache

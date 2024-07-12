@@ -1,0 +1,19 @@
+{
+	"private": true,
+	"name": "@turbo/cspell-config",
+	"version": "0.0.0",
+	"type": "module",
+	"author": "Dmitriy Kvant",
+	"main": "./cjs/index.cjs",
+	"exports": {
+		".": {
+			"require": "./cjs/index.cjs"
+		}
+	},
+	"devDependencies": {
+		"@cspell/dict-ru_ru": "2.2.1"
+	},
+	"peerDependencies": {
+		"cspell": "8.10.4"
+	}
+}
