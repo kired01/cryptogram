@@ -3,12 +3,12 @@
 import { Button } from "@nextui-org/button"
 import { useRouter } from "next/navigation"
 
-import { useLevel } from "@/entities/cryptogram"
+import { useUserStore } from "@/entities/user"
 
 export default function HomePage() {
 	const router = useRouter()
 
-	const level = useLevel((state) => state.level)
+	const level = useUserStore((state) => state.level)
 
 	const handlePlayClick = () => {
 		router.push(`/level/${level}`)

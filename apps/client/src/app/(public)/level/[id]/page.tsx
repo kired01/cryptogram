@@ -6,7 +6,8 @@ import { useEffect, useState } from "react"
 
 import { Keyboard } from "@/features/keyboard"
 
-import { Cryptogram, type TCryptogramProps, useCryptogram, useLevel } from "@/entities/cryptogram"
+import { Cryptogram, type TCryptogramProps, useCryptogram } from "@/entities/cryptogram"
+import { useUserStore } from "@/entities/user"
 
 import { arraysEqual } from "@/shared/lib"
 
@@ -14,7 +15,7 @@ export default function LevelPage({ params }: { params: { id: number } }) {
 	const id = Number(params.id)
 
 	const router = useRouter()
-	const onNextLevel = useLevel((state) => state.onNextLevel)
+	const onNextLevel = useUserStore((state) => state.onNextLevel)
 	const { isPending, data, isError } = useCryptogram(id)
 
 	const [hiddenPhrase, setHiddenPhrase] = useState<TCryptogramProps["hiddenPhrase"]>([[]])

@@ -1,13 +1,13 @@
 import { create } from "zustand"
 import { persist } from "zustand/middleware"
 
-type TUseLevel = {
+type TUserStore = {
 	level: number
 	onNextLevel: () => void
 }
 
-export const useLevel = create(
-	persist<TUseLevel>(
+export const useUserStore = create(
+	persist<TUserStore>(
 		(set, get) => ({
 			level: 1,
 			onNextLevel: () => set({ level: get().level + 1 }),
