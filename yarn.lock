@@ -5441,6 +5441,8 @@ __metadata:
       unplugged: true
     "@trivago/prettier-plugin-sort-imports@4.3.0":
       unplugged: true
+    next@14.2.5:
+      unplugged: true
     prettier-plugin-tailwindcss@0.4.1:
       unplugged: true
   languageName: unknown

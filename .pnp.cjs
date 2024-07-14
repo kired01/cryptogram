@@ -18675,14 +18675,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["next", [\
       ["npm:14.2.5", {\
-        "packageLocation": "../../../home/lokich01/.yarn/berry/cache/next-npm-14.2.5-ce63d89d89-10c0.zip/node_modules/next/",\
+        "packageLocation": "./.yarn/unplugged/next-virtual-3de5f47b98/node_modules/next/",\
         "packageDependencies": [\
           ["next", "npm:14.2.5"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:277c5e694187722b78e11184b2499b874658ca5742b4a8793fe6d6b14729561616ecc202ad18e7d993de22bc46f1c555d49d88f56f954931f2d3adb103e95ee9#npm:14.2.5", {\
-        "packageLocation": "./.yarn/__virtual__/next-virtual-3de5f47b98/4/home/lokich01/.yarn/berry/cache/next-npm-14.2.5-ce63d89d89-10c0.zip/node_modules/next/",\
+        "packageLocation": "./.yarn/unplugged/next-virtual-3de5f47b98/node_modules/next/",\
         "packageDependencies": [\
           ["next", "virtual:277c5e694187722b78e11184b2499b874658ca5742b4a8793fe6d6b14729561616ecc202ad18e7d993de22bc46f1c555d49d88f56f954931f2d3adb103e95ee9#npm:14.2.5"],\
           ["@next/env", "npm:14.2.5"],\
