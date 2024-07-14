@@ -24,7 +24,7 @@
 		"cspell": "8.10.4",
 		"eslint": "8.57.0",
 		"prettier": "3.3.2",
-		"turbo": "2.0.6",
+		"turbo": "1.13.4",
 		"typescript": "5.4.5"
 	},
 	"packageManager": "yarn@4.3.1",
@@ -37,9 +37,6 @@
 			"unplugged": true
 		},
 		"@trivago/prettier-plugin-sort-imports@4.3.0": {
-			"unplugged": true
-		},
-		"next@14.2.5": {
 			"unplugged": true
 		},
 		"prettier-plugin-tailwindcss@0.4.1": {

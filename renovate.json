@@ -4,6 +4,9 @@
 	"dependencyDashboardApproval": true,
 	"ignoreDeps": [
 		"eslint",
+		"turbo",
+		"eslint-config-turbo",
+		"eslint-plugin-turbo",
 		"prettier-plugin-tailwindcss",
 		"typescript"
 	]
